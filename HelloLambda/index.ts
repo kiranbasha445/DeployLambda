@@ -4,4 +4,5 @@ export const handler = async (event: any = {}): Promise<any> => {
     statusCode: 200,
     body: JSON.stringify({ message: "Hello from Lambda!" }),
   };
+
 };
